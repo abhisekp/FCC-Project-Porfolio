@@ -26,20 +26,43 @@
   <meta name="msapplication-TileImage" content="mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css" data-noprefix>
+  <link rel="stylesheet" href="css/vendor/font-awesome.min.css" data-noprefix>
+  <link rel="stylesheet" href="css/vendor/animate.css" data-noprefix>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/prefixfree.min.js"></script>
+
 </head>
 
 <body>
   <div class="container-fluid">
 
-    <div class="card">
-      <h1>Abhisek Pattnaik</h1>
-      <h2>Computer Enthusiast</h2>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="card">
+          <h1>Abhisek Pattnaik</h1>
+          <h2>Computer Enthusiasts</h2>
+          <span><a href="#portfolio">Portfolio</a></span>
+        </div>
+        <div class="portfolios">
+        </div>
+      </div>
     </div>
-    <div class="portfolio">
-      <span><a href="#portfolio">Portfolio</a></span>
+
+    <div class="row">
+      <div class="col-md-5">
+        <span class="text-center text-primary">Abhisek Pattnaik</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <button type="button" class="btn btn-default" id="clickr">Click Me</button>
     </div>
 
   </div>
+
+  <script data-main="js/main" data="js/myApp" src="js/vendor/require.js"></script>
+
 </body>
 
 </html>
