@@ -9,8 +9,11 @@
         "chai": "^3.2.0",
         "codacy-coverage": "^1.1.3",
         "coveralls": "^2.11.4",
+        "csslint": "^0.10.0",
         "eslint": "^1.3.1",
+        "htmlhint": "^0.9.7",
         "js-beautify": "^1.5.10",
+        "jsonlint": "^1.6.2",
         "mocha": "^2.3.1",
         "mocha-lcov-reporter": "0.0.2",
         "mocha-multi": "^0.7.1",
@@ -31,14 +34,16 @@
     "bugs": {
         "url": "https://github.com/abhisekp/FCC-Zipline-Porfolio/issues"
     },
-    "homepage": "https://github.com/abhisekp/FCC-Zipline-Porfolio#readme",
+    "homepage": "http://abhisekp.github.io/FCC-Zipline-Porfolio",
     "directories": {
-        "test": "test"
+        "test": "js/test",
+        "bin": "bin",
+        "lib": "js"
     },
     "config": {
         "blanket": {
-            "pattern": [""],
-            "data-cover-never": ["node_modules", "test"],
+            "pattern": ["js/*.js"],
+            "data-cover-never": ["node_modules", "test", "vendor"],
             "data-cover-reporter-options": {
                 "basepath": true
             }
